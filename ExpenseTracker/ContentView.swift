@@ -16,6 +16,9 @@ struct ContentView: View {
                     Text("Overview")
                         .font(.title2)
                         .bold()
+                    
+                    // MARK: Transaction list
+                    RecentTransactionList()
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
